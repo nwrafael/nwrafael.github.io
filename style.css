@@ -14,19 +14,20 @@
 
 body {
     font-family: 'mona', sans-serif;
-    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+    background-image: linear-gradient(to top, var(--cor02), var(--cor03));
     padding: 0px;
     margin: 0px;
+    color: white;  
 }
 
 header {
-    color: white;
     display: flex;
     justify-content: space-between;
-    background-color: #011815;
+    background-color: #052b26;
     position: sticky;
     border-radius: 5px;
     padding: 10px;
+    top: 0px;
 }
 
 header > h1 {
@@ -47,4 +48,22 @@ nav > a {
     color: white;
     font-weight: 550;
     margin: 5px;
+}
+
+
+
+main {
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+
+main > img {
+    min-width: 100px;
+    max-width: 150px;
+}
+
+section {
+    padding: 10px;
 }
