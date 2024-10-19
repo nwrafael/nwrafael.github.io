@@ -1,0 +1,50 @@
+@font-face {
+    font-family: mona;
+    src: url(/fonts/MonaSans-Regular.otf) format('opentype');
+}
+
+:root {
+    --cor01: #043831;
+    --cor02: #0B3D36;
+    --cor03: #2A665E;
+    --cor04: #539188;
+    --cor05: #8BBBB5;
+    --cor06: #CCE6E2;
+}
+
+body {
+    font-family: 'mona', sans-serif;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02));
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #011815;
+    position: sticky;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 1.5em;
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin-top: 22px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    margin: 5px;
+}
